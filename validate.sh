@@ -1,4 +1,5 @@
 #!/bin/bash
+# This script will be run when releasing or deploying a new version.
 
 # Validate versions
 EXPECTED_VERSION=$(cat version.conf)

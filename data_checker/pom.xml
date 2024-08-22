@@ -6,13 +6,13 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.3.2</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/> <!-- lookup parent from a repository -->
     </parent>
     <groupId>vn.baodh</groupId>
-    <artifactId>mini_data_generator</artifactId>
+    <artifactId>data_checker</artifactId>
     <version>0.0.1</version>
-    <name>mini_data_generator</name>
-    <description>mini_data_generator</description>
+    <name>data_checker</name>
+    <description>data_checker</description>
     <url/>
     <licenses>
         <license/>
