@@ -124,7 +124,7 @@ Biometric fingerprint logs
 - Wrong data type
 - Missing require fields
 
-###### Other mock errors belong to the min_data_sync module
+###### Other mock errors belong to the data_sync module
 
 - [Data Synchronization's documentation](../mini_data_sync/readme.md)
 
