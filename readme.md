@@ -59,6 +59,8 @@ synchronization and ETL (Extract, Transform, Load) processing.
 - [ ] `dsa-002`: Data Generator Design
 - [ ] `dsa-003`: Data Synchronization Deign
 - [ ] `dsa-004`: Data Check Design
+- [ ] `dsa-005`: Config Central Design
+- [ ] `dsa-006`: Gateway Design
 
 </details>
 
