@@ -126,7 +126,7 @@ Biometric fingerprint logs
 
 ###### Other mock errors belong to the data_sync module
 
-- [Data Synchronization's documentation](../data_sync/readme.md)
+- [Data Synchronization's documentation](../data-sync/readme.md)
 
 ---
 

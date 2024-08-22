@@ -9,7 +9,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>vn.baodh.data-sync-automation</groupId>
+    <groupId>vn.baodh.automated-data-sync</groupId>
     <artifactId>gateway</artifactId>
     <version>0.0.1</version>
     <name>gateway</name>
