@@ -1,10 +1,10 @@
-package vn.baodh.mini_data_sync;
+package vn.baodh.data_checker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MiniDataSyncApplicationTests {
+class MiniDataCheckerApplicationTests {
 
     @Test
     void contextLoads() {

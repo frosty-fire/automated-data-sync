@@ -1,13 +1,13 @@
-package vn.baodh.mini_data_sync;
+package vn.baodh.data_checker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MiniDataSyncApplication {
+public class MiniDataCheckerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MiniDataSyncApplication.class, args);
+        SpringApplication.run(MiniDataCheckerApplication.class, args);
     }
 
 }
