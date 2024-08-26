@@ -21,6 +21,7 @@
         <module>data-generator</module>
         <module>data-sync</module>
         <module>data-checker</module>
+        <module>nifi-processor</module>
     </modules>
 
 </project>

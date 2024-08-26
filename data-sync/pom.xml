@@ -11,13 +11,14 @@
 
     <groupId>vn.baodh.automated-data-sync</groupId>
     <artifactId>data-sync</artifactId>
-    <version>0.0.1</version>
     <name>data-sync</name>
     <description>Data Synchronization</description>
 
     <properties>
         <java.version>17</java.version>
+
         <spring.boot.version>3.3.2</spring.boot.version>
+        <reactor.version>3.6.9</reactor.version>
     </properties>
 
     <dependencies>
@@ -29,10 +30,45 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-core</artifactId>
+            <version>${reactor.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-data-cassandra</artifactId>-->
+<!--            <version>${spring.boot.version}</version>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>org.projectlombok</groupId>-->
+<!--            <artifactId>lombok</artifactId>-->
+<!--            <version>RELEASE</version>-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>-->
+
+        <!-- test -->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <version>${spring.boot.version}</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <build>
